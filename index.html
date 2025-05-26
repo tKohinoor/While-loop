@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>While(True)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="assets/logo.png" alt="While(True) Logo" />
+      </a>
+
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+          ☰
+        </button>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Discord</a></li>
+          <li><a class="join-btn" href="#join">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+      <pre class="hero-code">
+  <span class="highlight">while</span>(<span class="true">true</span>) {
+      <span class="action">// Join the loop</span>
+  }
+      </pre>
+      <p>A futuristic tech community for coders, creators, and the curious.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn primary">Join the Community</a>
+        <a href="https://discord.gg/your-invite-code" class="btn secondary" target="_blank" rel="noopener">Visit Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+<section class="about" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About While(True)</h2>
+        <p>
+          While(True) is a space where code runs infinitely, ideas loop freely, and devs evolve together.
+          <br><br>
+          We are a future-facing tech community built for developers who love building, sharing, and learning — in an environment that feels like home inside a terminal.
+        </p>
+      </div>
+      <div class="about-visual">
+        <!-- Replace with SVG, animation or image -->
+        <img src="assets/about-image.jpg" alt="Tech Loop Visual" />
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- COMMUNITY FEATURES -->
+<section class="features">
+    <div class="features-container">
+      <h2>Community Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="icon">🧠</span>
+          <h3>Coding Challenges</h3>
+          <p>Sharpen your skills with weekly code problems and real-world scenarios.</p>
+        </div>
+        <div class="feature-card">
+          <span class="icon">👨‍💻</span>
+          <h3>Workshops & Meetups</h3>
+          <p>Live sessions, build-alongs, and community calls to level up together.</p>
+        </div>
+        <div class="feature-card">
+          <span class="icon">💬</span>
+          <h3>Discussion Forums</h3>
+          <p>Talk tech, share tools, or debug your biggest headaches with peers.</p>
+        </div>
+        <div class="feature-card">
+          <span class="icon">🎯</span>
+          <h3>Mentorship Program</h3>
+          <p>Connect with experienced devs to grow in code, career, and confidence.</p>
+        </div>
+        <div class="feature-card">
+          <span class="icon">⚡</span>
+          <h3>Hackathons & Events</h3>
+          <p>Compete, collaborate, and build cool stuff under pressure and passion.</p>
+        </div>
+        <div class="feature-card">
+          <span class="icon">📢</span>
+          <h3>Announcements</h3>
+          <p>Stay updated with news, challenge drops, and upcoming events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- FEATURED POSTS / ANNOUNCEMENTS -->
+<section class="featured-posts">
+    <div class="featured-container">
+      <h2>Latest Announcements</h2>
+      <div class="posts-scroll">
+        
+        <div class="post-card">
+          <h3>🔥 Hackathon Begins Friday</h3>
+          <p>Form your team and build something awesome in 48 hours.</p>
+          <span class="posted-by">Posted by @admin</span>
+        </div>
+  
+        <div class="post-card">
+          <h3>📢 New Weekly Challenge</h3>
+          <p>Reverse a linked list in 3 different languages. Are you game?</p>
+          <span class="posted-by">Posted by @mod_jade</span>
+        </div>
+  
+        <div class="post-card">
+          <h3>💬 AMA with a DevOps Engineer</h3>
+          <p>Join live this Sunday and ask your burning backend questions.</p>
+          <span class="posted-by">Posted by @events_bot</span>
+        </div>
+  
+        <div class="post-card">
+          <h3>🚀 Contributor Levels Launched</h3>
+          <p>Earn reputation and badges for helping the community grow.</p>
+          <span class="posted-by">Posted by @coreteam</span>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <script>
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav');
+
+  toggleBtn.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+
+</body>
+</html>
+
+
+<!-- CONTRIBUTOR SPOTLIGHTS -->
+<section class="spotlights">
+  <div class="spotlight-container">
+    <h2>Contributor Spotlights</h2>
+    <div class="spotlight-scroll">
+      
+      <div class="spotlight-card">
+        <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Contributor Avatar">
+        <h3>@dev_alex</h3>
+        <p>Building microservices in Rust. Community mod & mentor.</p>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+
+      <div class="spotlight-card">
+        <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Contributor Avatar">
+        <h3>@jade_ui</h3>
+        <p>UI/UX dev with a love for terminal aesthetics and Figma hacks.</p>
+        <a href="#" target="_blank">Portfolio</a>
+      </div>
+
+      <div class="spotlight-card">
+        <img src="https://avatars.githubusercontent.com/u/4?v=4" alt="Contributor Avatar">
+        <h3>@backend_sage</h3>
+        <p>DevOps wizard. Runs CI/CD like clockwork. Breaking prod since 2016.</p>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- CALL TO JOIN -->
+<section class="call-to-join" id="join">
+  <div class="call-container">
+    <h2>Don't code alone.</h2>
+    <p>Join <span class="highlight">While(True)</span> and be part of something infinite.</p>
+    <div class="call-buttons">
+      <a href="#" class="btn primary">Become a Member</a>
+      <a href="#" class="btn secondary">Connect on Discord</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="While(True) Logo" />
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#join">Join</a>
+        <a href="https://discord.gg/your-invite-code" target="_blank" rel="noopener">Discord</a>
+        <a href="/code-of-conduct.html">Code of Conduct</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="GitHub">🐱</a>
+        <a href="#" aria-label="X (Twitter)">𝕏</a>
+        <a href="#" aria-label="LinkedIn">💼</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 While(True). All loops reserved.</p>
+    </div>
+  </div>
+</footer>
